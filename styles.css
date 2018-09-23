@@ -35,6 +35,7 @@ header, #nav {
     position: absolute;
     left: 3%;
 }
+
 .home-icon-text {
     font-size: x-small;
 }
@@ -59,28 +60,106 @@ header, #nav {
 .nav-link:hover {
     text-shadow: 2px 2px 4px #000000;
 }
-.feature{
+
+#email {
+    height: 35px;
+}
+
+#submit {
+    width: 200px;
+    margin: 2% auto;
+    height: 30px;
+    background-color: yellowgreen;
+    border: none;
+    font-family: Nunito;
+    font-size: 1.1em;
+    font-weight: bolder;
+}
+
+.features {
+    margin: auto;
+    max-width: 600px;
+    text-align: justify;
+}
+
+.feture-text {
+    margin: 0 0 5% 5%;
+}
+
+.feature {
     display: flex;
 }
-.feature-icon{
+
+.feature-icon {
     font-size: xx-large;
+    color: #ff8c00;
 }
-iframe{
+
+iframe {
     display: block;
     margin: auto;
 }
+
+.pricing {
+    display: flex;
+    margin: 8%;
+}
+
+.pricing-item {
+    border: 1px solid gray;
+    margin: 1%;
+    min-width: 33%;
+}
+
+.pricing-item h4, .pricing-item p {
+    text-align: justify;
+    text-align-last: center;
+    padding: 2%
+}
+.pricing-item h4 {
+    background-color: #dddddd;
+    height: 35px;
+}
+
+.pricing-item button {
+    border: none;
+    margin: 5% auto;
+    display: block;
+    height: 30px;
+    width: 65px;
+    background-color: yellowgreen;
+    font-family: Nunito;
+    font-size: 1.1em;
+    font-weight: bolder;
+}
+
 #form {
     display: flex;
     flex-direction: column;
     max-width: 40%;
     margin: 5% auto;
 }
-h2{
+
+h2 {
     margin: 8% auto;
 }
+#footer{
+    text-align: center;
+}
+#footer div {
+    background-color: #dddddd;
+    padding: 10px;
+}
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+button:hover, #submit:hover{
+    background-color: #6e9126;
+}
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
     body {
-        color: red;
+        
     }
 }
