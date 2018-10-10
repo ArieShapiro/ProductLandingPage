@@ -88,11 +88,13 @@ header, #nav {
 
 .feature {
     display: flex;
+    margin-bottom: 6%;
 }
 
 .feature-icon {
     font-size: xx-large;
     color: #ff8c00;
+    margin-right: 15px;
 }
 
 iframe {
